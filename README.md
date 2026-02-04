@@ -1,70 +1,63 @@
-# 📊 SQL Architecture & Relational Engineering (SARE)
+# 📊 High-Performance SQL Architecture (HPSA)
 
-> **"Data is the asset; structure is the foundation. Logic governs the flow, but the Schema enforces the truth."**
-> *"O dado é o ativo; a estrutura é o fundamento. A lógica governa o fluxo, mas o Schema impõe a verdade."*
+> **"Data is the asset; performance is the goal. The schema is the engine that drives the business."**
+> *"O dado é o ativo; a performance é o objetivo. O schema é o motor que impulsiona o negócio."*
 
 ![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Engineering](https://img.shields.io/badge/Focus-Data_Engineering-green?style=for-the-badge)
-![Theory](https://img.shields.io/badge/Methodology-Relational_Algebra-orange?style=for-the-badge)
-![Market](https://img.shields.io/badge/Standard-Enterprise_Ready-red?style=for-the-badge)
+![Market](https://img.shields.io/badge/Status-Production_Ready-red?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Optimization-High_Throughput-purple?style=for-the-badge)
 
 ---
 
 ## 📖 Resumo / Overview
 
-**PT-BR:** O `SARE` é um ecossistema focado em **Engenharia de Dados Pura**. O projeto demonstra como transformar modelos matemáticos de conjuntos em arquiteturas SQL de alta performance, capazes de sustentar operações de mercado (Enterprise), estudos acadêmicos rigorosos e soluções robustas para clientes de consultoria/freelance.
+**PT-BR:** Este repositório é um portfólio de **Engenharia de Banco de Dados Relacional**. O foco é a criação de sistemas robustos, escaláveis e de alta performance. Aqui, o banco de dados não apenas armazena dados, mas processa regras de negócio complexas, garante integridade total e entrega analytics em tempo real.
 
-**EN-US:** `SARE` is an ecosystem focused on **Pure Data Engineering**. This project demonstrates how to transform mathematical set models into high-performance SQL architectures, capable of supporting enterprise-level operations, rigorous academic studies, and robust solutions for consultancy/freelance clients.
-
----
-
-## 🎯 Pilares Estratégicos / Strategic Pillars
-
-### 🎓 Rigor Acadêmico (Relational Theory)
-Modelagem baseada em álgebra relacional e teoria de conjuntos. Aplicação estrita da **3ª Forma Normal (3NF)** e análise de dependências funcionais. O banco de dados é tratado como uma prova matemática de integridade.
-
-### 💼 Eficiência de Mercado (Enterprise Performance)
-Foco em escalabilidade e performance real: uso de **Índices Compostos**, **Particionamento de Tabelas** e **Planos de Execução (EXPLAIN)** para garantir latência mínima em grandes volumes de dados.
-
-### 🛠️ Solução para Negócios (Business Logic)
-Encapsulamento de regras de negócio complexas via **Stored Procedures** e **Triggers**. Camada de abstração via **Views** otimizadas para Business Intelligence (BI), garantindo que o dado chegue limpo e processado ao cliente final.
+**EN-US:** This repository is a **Relational Database Engineering** portfolio. The focus is on building robust, scalable, and high-performance systems. Here, the database doesn't just store data—it processes complex business rules, ensures total integrity, and delivers real-time analytics.
 
 ---
 
-## 🛠️ Implementações de Engenharia / Features
+## 🚀 Diferenciais Técnicos / Technical Features
 
-| Feature | Technical Description (EN) | Descrição Técnica (PT) | Focus |
-| :--- | :--- | :--- | :--- |
-| **Atomic Transactions** | ACID compliant complex workflows. | Transações atômicas e fluxos complexos. | Reliability |
-| **3NF Architecture** | Normalization for zero data redundancy. | Normalização total (3NF) contra redundância. | Integrity |
-| **Query Tuning** | Advanced Indexing & Partitioning. | Estratégia de índices e particionamento. | Performance |
-| **Data Abstraction** | Business-ready Analytics Views. | Views analíticas prontas para BI. | Analytics |
-| **Constraint Engine** | Deep logic validation at schema level. | Validação lógica profunda via Constraints. | Quality |
+### ⚡ Performance & Scalability
+- **Query Tuning:** Uso de índices avançados e análise de custo de consulta (`EXPLAIN ANALYZE`).
+- **Partitioning:** Divisão estratégica de grandes tabelas para manutenção de performance.
+- **Materialized Views:** Cache de dados complexos para dashboards de alta velocidade.
 
----
+### ⚙️ Business Logic (Database-Side)
+- **Stored Procedures:** Automação de processos (ex: pagamentos, controle de estoque).
+- **Triggers Forenses:** Auditoria automática de alterações para conformidade e segurança.
+- **Atomic Transactions:** Garantia de operações ACID para evitar inconsistências.
 
-## 📂 Estrutura do Ecossistema / Project Structure
-
-* 📁 **[`/01-conceptual`](./01-conceptual):** Modelagem matemática, diagramas DER e provas lógicas.
-* 📁 **[`/02-ddl-schema`](./02-ddl-schema):** Scripts de criação de tabelas, tipos e domínios.
-* 📁 **[`/03-business-logic`](./03-business-logic):** Procedures, Triggers e automação de regras.
-* 📁 **[`/04-performance`](./04-performance):** Índices, Tuning e Particionamento de dados.
-* 📁 **[`/05-analytics`](./05-analytics):** Camada de relatórios e Views para BI.
+### 📈 Analytics & BI Ready
+- **Abstração de Dados:** Camadas de Views que transformam tabelas brutas em informações prontas para o negócio.
+- **Complex Joins:** Consultas otimizadas entre múltiplas entidades com foco em baixo consumo de memória.
 
 ---
 
-## 📐 Metodologia de Design
+## 📂 Estrutura do Projeto / Project Structure
 
-1.  **Validação Lógica:** Verificação de chaves e dependências lógicas antes do código.
-2.  **Escalabilidade:** Design pensado para crescimento de volume sem perda de performance.
-3.  **Independência:** O banco de dados detém a inteligência, sendo independente de qualquer linguagem de Backend.
+* 📁 **[`/01-ddl-schema`](./01-ddl-schema):** Scripts de criação (Tables, Types, Constraints).
+* 📁 **[`/02-automation`](./02-automation):** Procedures, Functions e Triggers de negócio.
+* 📁 **[`/03-optimization`](./03-optimization):** Índices, Particionamento e planos de execução.
+* 📁 **[`/04-analytics`](./04-analytics):** Views e relatórios complexos para BI.
+* 📁 **[`/05-data-seed`](./05-data-seed):** Scripts de carga de dados para testes de stress.
+
+---
+
+## 🛠️ Por que investir nesta arquitetura?
+
+1. **Independência de Stack:** As regras de negócio estão no banco. Mude o Backend sem quebrar o sistema.
+2. **Consistência de Dados:** Erros de aplicação não corrompem o banco; as Constraints barram o lixo na entrada.
+3. **Velocidade de Entrega:** Consultas prontas e otimizadas que reduzem o tempo de desenvolvimento de relatórios.
 
 ---
 
 ## 📩 Contato / Contact
 
-* 💼 **Freelance & Consultancy:** [Seu Email Aqui]
-* 📊 **Expertise:** SQL Specialist | Data Architect | Relational Logic.
+* 💼 **Freelance & Consultoria:** [Seu Email Aqui]
+* 🛠️ **Expertise:** SQL Specialist | Data Architect | Database Tuning.
 
 ---
 **Developed by Kauan Oliveira - 2026**

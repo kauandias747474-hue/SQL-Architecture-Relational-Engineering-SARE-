@@ -1,74 +1,70 @@
-# 🛡️ RDBMS Integrity Core: Engenharia de Dados e Defesa Blindada
+# 📊 SQL Architecture & Relational Engineering (SARE)
 
-> **"Data is the asset; integrity is the vault. Logic governs the flow, but the Schema enforces the truth."**
-> *"O dado é o ativo; a integridade é o cofre. A lógica governa o fluxo, mas o Schema impõe a verdade."*
+> **"Data is the asset; structure is the foundation. Logic governs the flow, but the Schema enforces the truth."**
+> *"O dado é o ativo; a estrutura é o fundamento. A lógica governa o fluxo, mas o Schema impõe a verdade."*
 
-![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=mysql&logoColor=white)
-![Security](https://img.shields.io/badge/Focus-Database_Hardening-red?style=for-the-badge)
+![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=postgresql&logoColor=white)
+![Engineering](https://img.shields.io/badge/Focus-Data_Engineering-green?style=for-the-badge)
 ![Theory](https://img.shields.io/badge/Methodology-Relational_Algebra-orange?style=for-the-badge)
-![Standard](https://img.shields.io/badge/Design-3NF_Normalization-purple?style=for-the-badge)
+![Market](https://img.shields.io/badge/Standard-Enterprise_Ready-red?style=for-the-badge)
 
 ---
 
 ## 📖 Resumo / Overview
 
-**PT-BR:** O `RDBMS Integrity Core` (RIC) foca em **segurança profunda** e **normalização rigorosa**. O projeto demonstra como transpor modelos matemáticos de conjuntos para implementações SQL onde a integridade é blindada pelo motor do banco (Hardening), garantindo resiliência contra ataques, independente da aplicação.
+**PT-BR:** O `SARE` é um ecossistema focado em **Engenharia de Dados Pura**. O projeto demonstra como transformar modelos matemáticos de conjuntos em arquiteturas SQL de alta performance, capazes de sustentar operações de mercado (Enterprise), estudos acadêmicos rigorosos e soluções robustas para clientes de consultoria/freelance.
 
-**EN-US:** `RDBMS Integrity Core` (RIC) focuses on **deep security** and **rigorous normalization**. This project demonstrates how to translate mathematical set models into secure SQL implementations where integrity is hardened by the database engine, ensuring resilience against attacks, regardless of the application layer.
+**EN-US:** `SARE` is an ecosystem focused on **Pure Data Engineering**. This project demonstrates how to transform mathematical set models into high-performance SQL architectures, capable of supporting enterprise-level operations, rigorous academic studies, and robust solutions for consultancy/freelance clients.
 
 ---
 
-## 🎯 Proposta de Valor / Value Proposition
+## 🎯 Pilares Estratégicos / Strategic Pillars
 
-### 📐 Rigor Matemático (Relational Algebra)
-Modelagem baseada em álgebra relacional e teoria de conjuntos. Aplicação estrita da **3ª Forma Normal (3NF)** para eliminação de redundâncias e prevenção de anomalias. Validado em papel A4 antes da codificação.
-*Modeling based on relational algebra. Strict 3NF application to eliminate redundancy and update anomalies.*
+### 🎓 Rigor Acadêmico (Relational Theory)
+Modelagem baseada em álgebra relacional e teoria de conjuntos. Aplicação estrita da **3ª Forma Normal (3NF)** e análise de dependências funcionais. O banco de dados é tratado como uma prova matemática de integridade.
 
-### 🛡️ Defesa Blindada (SQLi Defense)
-Segurança em nível de infraestrutura: uso de **Stored Procedures** para isolar o acesso ao dado e **Privilege Segregation** para garantir que a aplicação nunca tenha mais poder do que o estritamente necessário.
-*Infrastructure-level security: using Stored Procedures and Privilege Segregation to minimize attack surface.*
+### 💼 Eficiência de Mercado (Enterprise Performance)
+Foco em escalabilidade e performance real: uso de **Índices Compostos**, **Particionamento de Tabelas** e **Planos de Execução (EXPLAIN)** para garantir latência mínima em grandes volumes de dados.
 
-### 🔍 Auditoria Atômica
-Uso de **Triggers** e Logs de auditoria para rastrear modificações em tabelas críticas, garantindo a imutabilidade do histórico e facilitando processos de perícia digital (Forensics).
-*Audit Triggers to track changes in critical tables for forensics and reliability.*
+### 🛠️ Solução para Negócios (Business Logic)
+Encapsulamento de regras de negócio complexas via **Stored Procedures** e **Triggers**. Camada de abstração via **Views** otimizadas para Business Intelligence (BI), garantindo que o dado chegue limpo e processado ao cliente final.
 
 ---
 
 ## 🛠️ Implementações de Engenharia / Features
 
-| Feature | Technical Description (EN) | Descrição Técnica (PT) | Implementation |
+| Feature | Technical Description (EN) | Descrição Técnica (PT) | Focus |
 | :--- | :--- | :--- | :--- |
-| **Least Privilege** | Granular DCL permissions for DB users. | Permissões granulares (DCL) de usuário. | Security |
-| **3NF Schema** | Normalization for zero data redundancy. | Normalização total (3NF) contra redundância. | Architecture |
-| **Proc Isolation** | All DML executed via Stored Procedures. | Escrita isolada via Stored Procedures. | Defense |
-| **Audit Triggers** | Automated row-level change logging. | Log automático de alterações via Triggers. | Compliance |
-| **Query Optz** | Indexing strategy and EXPLAIN analysis. | Estratégia de índices e análise via EXPLAIN. | Performance |
-
----
-
-## 📐 Metodologia de Design (Manual & Logic)
-
-O fluxo de trabalho prioriza a lógica matemática sobre a automação:
-
-1.  **Esquema Manual:** Diagramas de Entidade-Relacionamento (DER) desenhados em papel A4.
-2.  **Validação Lógica:** Verificação de chaves e dependências funcionais antes do DDL.
-3.  **Hardening:** Configuração de usuários com acesso restrito por host e comando.
+| **Atomic Transactions** | ACID compliant complex workflows. | Transações atômicas e fluxos complexos. | Reliability |
+| **3NF Architecture** | Normalization for zero data redundancy. | Normalização total (3NF) contra redundância. | Integrity |
+| **Query Tuning** | Advanced Indexing & Partitioning. | Estratégia de índices e particionamento. | Performance |
+| **Data Abstraction** | Business-ready Analytics Views. | Views analíticas prontas para BI. | Analytics |
+| **Constraint Engine** | Deep logic validation at schema level. | Validação lógica profunda via Constraints. | Quality |
 
 ---
 
 ## 📂 Estrutura do Ecossistema / Project Structure
 
-* 📁 **[`/schemas`](./schemas):** Definições de tabelas focadas em performance.
-* 📁 **[`/security`](./security):** Scripts de criação de usuários e permissões.
-* 📁 **[`/procedures`](./procedures):** Lógica de negócio encapsulada.
-* 📁 **[`/docs`](./docs):** Modelagem matemática e diagramas de fluxo.
+* 📁 **[`/01-conceptual`](./01-conceptual):** Modelagem matemática, diagramas DER e provas lógicas.
+* 📁 **[`/02-ddl-schema`](./02-ddl-schema):** Scripts de criação de tabelas, tipos e domínios.
+* 📁 **[`/03-business-logic`](./03-business-logic):** Procedures, Triggers e automação de regras.
+* 📁 **[`/04-performance`](./04-performance):** Índices, Tuning e Particionamento de dados.
+* 📁 **[`/05-analytics`](./05-analytics):** Camada de relatórios e Views para BI.
+
+---
+
+## 📐 Metodologia de Design
+
+1.  **Validação Lógica:** Verificação de chaves e dependências lógicas antes do código.
+2.  **Escalabilidade:** Design pensado para crescimento de volume sem perda de performance.
+3.  **Independência:** O banco de dados detém a inteligência, sendo independente de qualquer linguagem de Backend.
 
 ---
 
 ## 📩 Contato / Contact
 
-* 💼 **Freelance & Bug Bounty:** [Consultancy/Email](#)
-* 📊 **Mathematics:** *Logic validated via mathematical models on paper.*
+* 💼 **Freelance & Consultancy:** [Seu Email Aqui]
+* 📊 **Expertise:** SQL Specialist | Data Architect | Relational Logic.
 
 ---
 **Developed by Kauan Oliveira - 2026**

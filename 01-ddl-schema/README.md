@@ -6,14 +6,7 @@ Esta pasta contém a estrutura fundamental (DDL) de três ecossistemas de dados 
 
 ## 📂 Estrutura do Repositório
 
-Os projetos estão organizados por contextos de negócio, focando em integridade referencial, constraints e tipagem customizada para garantir a padronização:
-
-/DDL-Data-Modeling
-├── 00_Global_Resources/      # Tipos, Enums e Domínios compartilhados
-├── 01_Public_Transport/      # Sistema de Bilhetagem (Integridade Financeira)
-├── 02_E_Health_Records/      # Gestão de Saúde (Imutabilidade e Segurança)
-└── 03_IT_Asset_Management/   # Controle de Inventário (Estados e Logística)
-
+Os projetos estão organizados por contextos de negócio, focando em integridade referencial, constraints e tipagem customizada para garantir a padronização.
 
 ---
 

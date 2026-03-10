@@ -55,8 +55,4 @@
 
 ## 📩 Contato / Contact
 
-* 💼 **Freelance & Consultoria:** [Seu Email Aqui]
-* 🛠️ **Expertise:** SQL Specialist | Data Architect | Database Tuning.
-
----
-**Developed by Kauan Oliveira - 2026**
+Linkedin: https://www.linkedin.com/in/kauan-oliveira-324264378/
